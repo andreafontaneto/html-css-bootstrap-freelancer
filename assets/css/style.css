@@ -4,3 +4,22 @@
   box-sizing: border-box;
 }
 
+/* .box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.cl-w{
+  color: white;
+}
+
+header{
+  height: 100px;
+  background-color: #22303F;
+}
+
+.jumbotron{
+  height: 600px;
+  background-color: #27B08A;
+}
