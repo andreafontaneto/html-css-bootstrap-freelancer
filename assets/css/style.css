@@ -19,7 +19,7 @@ header{
   background-color: #22303F;
 }
 
-.jumbotron{
+.jumbotron, .about{
   height: 600px;
   background-color: #27B08A;
 }
