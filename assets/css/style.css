@@ -23,3 +23,17 @@ header{
   height: 600px;
   background-color: #27B08A;
 }
+
+.footer-top, .footer-bottom{
+  color: white;
+}
+
+.footer-top{
+  height: 300px;
+  background-color: #2D4359;
+}
+
+.footer-bottom{
+  height: 100px;
+  background-color: #22303F;
+}
