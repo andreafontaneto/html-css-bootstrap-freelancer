@@ -88,8 +88,21 @@ MAIN
 
 /* contact */
 
-.af-form{
-  height: 300px;
+.af-form-input{
+  font-size: 20px;
+  color: black;
+  border: none;
+  border-bottom: 1px solid lightgray;
+  border-radius: 0;
+  padding: 15px 0;
+}
+
+.af-form-btn{
+  font-size: 18px;
+  color: white;
+  background-color: #27B08A;
+  border-radius: 5px;
+  padding: 10px 15px;
 }
 
 /*----------------------------
