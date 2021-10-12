@@ -8,6 +8,10 @@
   color: white !important;
 }
 
+.af-cl-g{
+  color: #27B08A !important;
+}
+
 .af-py-60{
   padding: 60px 0;;
 }
@@ -18,6 +22,14 @@
 
 .af-title2{
   font-size: 50px;
+}
+
+.af-title4{
+  font-size: 24px;
+}
+
+.af-fs-15{
+  font-size: 15px;
 }
 
 .af-container-60{
@@ -109,13 +121,18 @@ MAIN
 FOOTER
 ----------------------------*/
 
-.af-footer-top, .af-footer-bottom{
-  color: white;
+.af-footer-top{
+  background-color: #2D4359;
 }
 
-.af-footer-top{
-  height: 300px;
-  background-color: #2D4359;
+.af-social-icon{
+  width: 60px;
+  height: 60px;
+  font-size: 20px;
+  text-align: center;
+  line-height: 60px;
+  border: 1px solid white;
+  border-radius: 50%;
 }
 
 .af-footer-bottom{
