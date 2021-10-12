@@ -8,8 +8,16 @@
   color: white !important;
 }
 
-.af-py-50{
-  padding: 50px 0;;
+.af-py-60{
+  padding: 60px 0;;
+}
+
+.af-title1{
+  font-size: 60px;
+}
+
+.af-title2{
+  font-size: 50px;
 }
 
 .af-container-60{
@@ -17,19 +25,21 @@
   margin: 0 auto;
 }
 
-.af-box{
-  background-color: tomato;
-  margin: 10px;
-  height: 300px;
-}
+/*----------------------------
+HEADER
+----------------------------*/
 
-/* HEADER */
 header{
   height: 100px;
   background-color: #22303F;
 }
 
-/* JUMBOTRON */
+/*----------------------------
+MAIN
+----------------------------*/
+
+/* jumbotron */
+
 .af-jumbotron, .about{
   background-color: #27B08A;
 }
@@ -44,24 +54,37 @@ header{
   margin: 0 auto;
 }
 
-.af-img-box{
+.af-jumbo-box{
   width: 250px;
 }
 
-.af-img-box img{
+.af-jumbo-box img{
   width: 100%;
 }
 
-.af-title1{
-  font-size: 60px;
+/* portfolio */
+
+.af-portfolio-box{
+  margin: 10px;
 }
 
-/* MAIN */
+.af-portfolio-box img{
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* about */
+
+/* contact */
+
 .af-form{
   height: 300px;
 }
 
-/* FOOTER */
+/*----------------------------
+FOOTER
+----------------------------*/
+
 .af-footer-top, .af-footer-bottom{
   color: white;
 }
