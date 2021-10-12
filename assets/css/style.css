@@ -98,6 +98,10 @@ MAIN
   padding: 10px 15px;
 }
 
+.af-download-btn:hover{
+  background-color: white;
+}
+
 /* contact */
 
 .af-form-input{
@@ -111,10 +115,14 @@ MAIN
 
 .af-form-btn{
   font-size: 18px;
-  color: white;
+  color: white !important;
   background-color: #27B08A;
   border-radius: 5px;
   padding: 10px 15px;
+}
+
+.af-form-btn:hover{
+  background-color: #166952;
 }
 
 /*----------------------------
