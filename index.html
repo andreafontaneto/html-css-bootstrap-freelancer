@@ -13,88 +13,116 @@
 </head>
 <body>
 
-  <header>
-    <div class="container-xl">
-      <div class="row justify-content-lg-between">
-        <div class="col-3 bg-primary cl-w">START BOOTSTRAP</div>
-        <div class="col-4 bg-primary cl-w">MENU</div>
+  <!-- HEADER -->
+  <header class="fixed-top">
+    <div class="container">
+      <div class="row">
+        <div class="col bg-primary cl-w">START BOOTSTRAP</div>
+        <div class="col text-end bg-primary cl-w">
+          <div class="d-none d-md-block">MENU</div>
+          <div class="d-md-none">HAMBURGER</div>
+        </div>
       </div>
     </div>
   </header>
+  <!-- /HEADER -->
 
+  <!-- MAIN -->
   <main>
-    <section class="jumbotron">
-      <div class="container-xl">
-        <div class="row d-flex align-items-center">
-          <div class="col-12 d-flex justify-content-center">IMG</div>
-          <div class="col-12 d-flex justify-content-center cl-w">TITOLO</div>
-          <div class="col-12 d-flex justify-content-center cl-w">----- * ------</div>
-          <div class="col-12 d-flex justify-content-center cl-w">Sottotitolo</div>
-        </div>
-      </div>
-    </section>
 
-    <section class="portfolio">
-      <div class="continer-xl">
-        <div class="row">
-          <div class="col-4 offset-lg-4 d-flex justify-content-center">PORTFOLIO</div>
-          <div class="col-4 offset-lg-4 d-flex justify-content-center">----- * ------</div>
-        </div>
-      </div>
-      <div class="container-xl">
-        <div class="row">
-          <div class="col-4 d-flex justify-content-center bg-success">IMG</div>
-          <div class="col-4 d-flex justify-content-center bg-warning">IMG</div>
-          <div class="col-4 d-flex justify-content-center bg-danger">IMG</div>
-        </div>
-        <div class="row">
-          <div class="col-4 d-flex justify-content-center bg-success">IMG</div>
-          <div class="col-4 d-flex justify-content-center bg-warning">IMG</div>
-          <div class="col-4 d-flex justify-content-center bg-danger">IMG</div>
-        </div>
-      </div>
+    <!-- jumbotron -->
+    <section class="af-jumbotron af-py-50">
+      <div class="af-jumbo-content"></div>
     </section>
+    <!-- /jumbotron -->
 
-    <section class="about">
-      <div class="container-xl">
+    <!-- portfolio -->
+    <section class="portfolio af-py-50">
+      <div class="text-center">
+        <h2>PORTFOLIO</h2>
+        <div>----*-----</div>
+      </div>
+      
+      <div class="container">
         <div class="row">
-          <div class="col-4 offset-lg-4 d-flex justify-content-center">ABOUT</div>
-          <div class="col-4 offset-lg-4 d-flex justify-content-center">----- * ------</div>
-        </div>
-        <div class="row d-flex justify-content-center">
-          <div class="col-5">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum nihil libero dignissimos voluptatum sit aliquam, tempora iure. Eligendi beatae pariatur aspernatur cum nemo dolorem voluptatem, eaque dolorum delectus tempora expedita.
+          <div class="col-md-6 col-lg-4">
+            <div class="af-box"></div>
           </div>
-          <div class="col-5">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum nihil libero dignissimos voluptatum sit aliquam, tempora iure. Eligendi beatae pariatur aspernatur cum nemo dolorem voluptatem, eaque dolorum delectus tempora expedita.
+          <div class="col-md-6 col-lg-4">
+            <div class="af-box"></div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="af-box"></div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="af-box"></div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="af-box"></div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="af-box"></div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-4 offset-lg-4 d-flex justify-content-center">BUTTON</div>
-        </div>
       </div>
     </section>
+    <!-- /portfolio -->
 
-    <section class="contact">
-      <div class="container-xl">
-        <div class="row">
-          <div class="col-4 offset-lg-4 d-flex justify-content-center">CONTACT ME</div>
-          <div class="col-4 offset-lg-4 d-flex justify-content-center">----- * ------</div>
+    <!-- about -->
+    <section class="about af-py-50">
+      <div class="text-center">
+        <h2>ABOUT</h2>
+        <div>----*-----</div>
+      </div>
+
+      <div class="af-container-60 bg-info">
+        
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-6">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere non voluptas distinctio totam laborum exercitationem pariatur molestias consequatur quis aut, earum id culpa, modi deserunt dignissimos suscipit obcaecati, sed optio?
+              </p>
+            </div>
+            <div class="col-md-6">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere non voluptas distinctio totam laborum exercitationem pariatur molestias consequatur quis aut, earum id culpa, modi deserunt dignissimos suscipit obcaecati, sed optio?
+              </p>
+            </div>
+          </div>
         </div>
-        <div class="row">
-          <div class="col-10 offset-lg-1 bg-warning">CONTACT FORM</div>
+
+      </div>
+    </section>
+    <!-- /about -->
+
+    <!-- contact -->
+    <section class="contact af-py-50">
+      <div class="text-center">
+        <h2>CONTACT ME</h2>
+        <div>----*-----</div>
+      </div>
+
+      <div class="af-container-60">
+        <div class="af-form bg-info">
+          FORM
         </div>
       </div>
     </section>
+    <!-- /contact -->
   </main>
+  <!-- /MAIN -->
 
+  <!-- FOOTER -->
   <footer>
-    <section class="footer-top">
-      <div class="container-xl">
+
+    <!-- footer top -->
+    <section class="af-footer-top">
+      <div class="container">
         <div class="row">
-          <div class="col-4 d-flex justify-content-center bg-success">TITOLO</div>
-          <div class="col-4 d-flex justify-content-center bg-warning">TITOLO</div>
-          <div class="col-4 d-flex justify-content-center bg-danger">TITOLO</div>
+          <div class="col-md-4 d-flex justify-content-center bg-success">TITOLO</div>
+          <div class="col-md-4 d-flex justify-content-center bg-warning">TITOLO</div>
+          <div class="col-md-4 d-flex justify-content-center bg-danger">TITOLO</div>
         </div>
         <div class="row">
           <div class="col-4 d-flex justify-content-center bg-success">Sottotitolo</div>
@@ -111,8 +139,9 @@
       </div>
     </section>
 
-    <section class="footer-bottom">
-      <div class="container-xl">
+    <!-- footer bottom -->
+    <section class="af-footer-bottom">
+      <div class="container">
         <div class="row">
           <div class="col-4 offset-lg-4 d-flex justify-content-center">
             Copyright C Your Website 2019
@@ -120,7 +149,9 @@
         </div>
       </div>
     </section>
+    <!-- /footer bottom -->
   </footer>
+  <!-- /FOOTER -->
   
 </body>
 </html>
