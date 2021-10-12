@@ -4,14 +4,8 @@
   box-sizing: border-box;
 }
 
-/* .box{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
-
-.cl-w{
-  color: white;
+.af-cl-w{
+  color: white !important;
 }
 
 .af-py-50{
@@ -29,11 +23,13 @@
   height: 300px;
 }
 
+/* HEADER */
 header{
   height: 100px;
   background-color: #22303F;
 }
 
+/* JUMBOTRON */
 .af-jumbotron, .about{
   background-color: #27B08A;
 }
@@ -43,17 +39,29 @@ header{
 }
 
 .af-jumbo-content{
-  background-color: teal;
   width: 800px;
   max-width: 80%;
   margin: 0 auto;
-  height: 300px;
 }
 
+.af-img-box{
+  width: 250px;
+}
+
+.af-img-box img{
+  width: 100%;
+}
+
+.af-title1{
+  font-size: 60px;
+}
+
+/* MAIN */
 .af-form{
   height: 300px;
 }
 
+/* FOOTER */
 .af-footer-top, .af-footer-bottom{
   color: white;
 }
